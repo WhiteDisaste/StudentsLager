@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="686da8e41cc549dcbbac1f8521fde332" Name="Diagram1">
+        <EntityTypeShape EntityType="StudLagerDeminModel.Competitions" Width="1.5" PointX="3" PointY="1.25" />
+        <EntityTypeShape EntityType="StudLagerDeminModel.Groups" Width="1.5" PointX="3" PointY="5" />
+        <EntityTypeShape EntityType="StudLagerDeminModel.Journal" Width="1.5" PointX="5.25" PointY="1" />
+        <EntityTypeShape EntityType="StudLagerDeminModel.Mark" Width="1.5" PointX="3" PointY="7.75" />
+        <EntityTypeShape EntityType="StudLagerDeminModel.Specialization" Width="1.5" PointX="0.75" PointY="5.125" />
+        <EntityTypeShape EntityType="StudLagerDeminModel.Status" Width="1.5" PointX="0.75" PointY="1.375" />
+        <EntityTypeShape EntityType="StudLagerDeminModel.sysdiagrams" Width="1.5" PointX="5.75" PointY="4.75" />
+        <AssociationConnector Association="StudLagerDeminModel.FK_Competitions_Status" />
+        <AssociationConnector Association="StudLagerDeminModel.FK_Journal_Competitions" />
+        <AssociationConnector Association="StudLagerDeminModel.FK_Groups_Specialization" />
+        <AssociationConnector Association="StudLagerDeminModel.FK_Journal_Groups" />
+        <AssociationConnector Association="StudLagerDeminModel.FK_Journal_Mark" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
